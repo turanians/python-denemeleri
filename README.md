@@ -23,20 +23,6 @@ VPython / PyQt5 (Masaüstü 3D Grafik ve Arayüz)
 
 Three.js / JavaScript (Web Tabanlı 3D Modelleme)
 
-HTML5 & CSS3
-
-📦 Kurulum ve Çalıştırma
-Masaüstü Sürümü (Python)
-Projeyi klonlayın:
-git clone https://github.com/kullanici-adi/3d-double-slit-simulation.git
-cd 3d-double-slit-simulation
-
-Gerekli kütüphaneleri yükleyin:
-pip install vpython PyQt5
-
-Simülasyonu başlatın:
-python main.py
-
 Web Sürümü (Three.js)
 Herhangi bir kurulum yapmadan web sürümünü çalıştırmak için index.html dosyasını tarayıcınızda açmanız veya projeyi yerel bir sunucuda (örn: Live Server) başlatmanız yeterlidir.
 
@@ -53,20 +39,10 @@ Karanlık Çizgiler (Minimum): d * sin(teta) = (m + 1/2) * lambda
 
 Eğik perde durumunda, perdenin dönme matrisi kullanılarak her bir pikselin dalga kaynaklarına olan gerçek 3D mesafesi dinamik olarak hesaplanır.
 
-📸 Ekran Görüntüleri
-Girişim Deseni	3D Uzay Görünümü
-(Not: screenshots klasörü oluşturup ekran görüntülerini eklemeyi unutmayın!)
+
 
 🤝 Katkıda Bulunma
-Bu projeyi Fork edin (fork butonuna tıklayarak).
-
-Yeni bir özellik dalı (feature branch) oluşturun: git checkout -b yeni-ozellik.
-
-Değişikliklerinizi commit edin: git commit -m 'Yeni bir özellik eklendi'.
-
-Dalınızı push edin: git push origin yeni-ozellik.
-
-Bir Pull Request açın.
+Bu projeyi Fork edin
 
 📄 Lisans
 Bu proje MIT lisansı altında korunmaktadır.
